@@ -29,7 +29,6 @@ void Oscillator::stop()
 {
     mTimer.stop();
 }
-#include <QDebug>
 
 void Oscillator::tick()
 {
