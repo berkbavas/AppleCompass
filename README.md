@@ -1,4 +1,4 @@
 # Apple Compass
-Apple iOS's compass UI written with QML.
+Apple iOS's compass written with QML.
 
-![Screenshot](Screenshot.png)
+![Screenshot](30.12.2021_22-49-41.gif)
