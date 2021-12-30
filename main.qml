@@ -34,7 +34,7 @@ Window {
             onPaint: {
                 var ctx = getContext("2d");
                 ctx.reset();
-                ctx.strokeStyle = "#ffffff"; /// !!!!!!!!!!!
+                ctx.strokeStyle = "#ffffff";
                 ctx.lineWidth = (6 / 324) * 0.5 * width
                 ctx.moveTo(0.5 * width, 0);
                 ctx.lineTo(0.5 * width, (76 / 324) * 0.5 * width);

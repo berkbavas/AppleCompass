@@ -2,8 +2,6 @@ import QtQuick 2.0
 import QtQuick.Controls.Styles 1.4
 
 CircularGaugeStyle {
-    id: style
-
     tickmarkInset: (76 / 324) * outerRadius
     minorTickmarkInset: (76 / 324) * outerRadius
 
