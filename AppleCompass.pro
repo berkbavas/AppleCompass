@@ -8,7 +8,7 @@ CONFIG += c++11
 
 SOURCES += \
         Oscillator.cpp \
-        main.cpp
+        Main.cpp
 
 RESOURCES += qml.qrc
 
