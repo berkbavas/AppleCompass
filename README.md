@@ -1,5 +1,5 @@
 # Apple Compass
-Apple iOS's compass written with QML.
+Apple iOS's compass written in QML.
 
 ![Screenshot](Screenshot_2021-12-30_225538.png)
 
