@@ -11,7 +11,7 @@ Window {
 
     FontLoader {
         name: "Teko"
-        source: "Resources/Fonts/Teko/Teko-Regular.ttf"
+        source: "qrc:/Resources/Fonts/Teko/Teko-Regular.ttf"
     }
 
     Oscillator {

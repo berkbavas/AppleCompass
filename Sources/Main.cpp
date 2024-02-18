@@ -1,4 +1,5 @@
-#include <Oscillator.h>
+#include "Oscillator.h"
+
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 
@@ -11,7 +12,7 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
     qmlRegisterType<Oscillator>("com.github.berkbavas.oscillator", 1, 0, "Oscillator");
     QQmlApplicationEngine engine;
-    const QUrl url(QStringLiteral("qrc:/Main.qml"));
+    const QUrl url(QStringLiteral("qrc:/Qml/Main.qml"));
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreated,

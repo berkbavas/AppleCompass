@@ -7,10 +7,10 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-        Oscillator.cpp \
-        Main.cpp
+        Sources/Oscillator.cpp \
+        Sources/Main.cpp
 
-RESOURCES += qml.qrc
+RESOURCES += Resources.qrc
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =
@@ -24,6 +24,4 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
-    Oscillator.h
-
-DISTFILES +=
+    Sources/Oscillator.h

@@ -1,8 +1,8 @@
 <RCC>
     <qresource prefix="/">
-        <file>Main.qml</file>
-        <file>AppleCompassStyle.qml</file>
-        <file>AppleCompass.qml</file>
+        <file>Qml/Main.qml</file>
+        <file>Qml/AppleCompassStyle.qml</file>
+        <file>Qml/AppleCompass.qml</file>
         <file>Resources/Fonts/Teko/Teko-Bold.ttf</file>
         <file>Resources/Fonts/Teko/Teko-Light.ttf</file>
         <file>Resources/Fonts/Teko/Teko-Medium.ttf</file>
