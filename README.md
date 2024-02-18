@@ -6,4 +6,4 @@ Apple iOS's compass written in `QML`.
 2) Open `AppleCompass.pro` with `QtCreator` and build & run it. 
 
 ## Screenshots
-![Screenshot](Screenshot_2021-12-30_225538.png)
+![image](https://github.com/berkbavas/AppleCompass/assets/53399385/46202ada-5007-4208-8269-4e756ffdb379)
