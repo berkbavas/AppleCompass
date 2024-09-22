@@ -13,11 +13,11 @@ Window {
     property double diameter: Math.min(root.width, root.height)
 
     FontLoader {
-        source: "qrc:/resources/fonts/Teko/Teko-Regular.ttf"
+        source: "qrc:/resources/Fonts/Teko/Teko-Regular.ttf"
     }
 
     FontLoader {
-        source: "qrc:/resources/fonts/Teko/Teko-Bold.ttf"
+        source: "qrc:/resources/Fonts/Teko/Teko-Bold.ttf"
     }
 
     Oscillator {

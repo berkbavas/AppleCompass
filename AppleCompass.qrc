@@ -1,12 +1,12 @@
 <RCC>
     <qresource prefix="/">
-        <file>qml/Main.qml</file>
-        <file>resources/fonts/Teko/Teko-Bold.ttf</file>
-        <file>resources/fonts/Teko/Teko-Light.ttf</file>
-        <file>resources/fonts/Teko/Teko-Medium.ttf</file>
-        <file>resources/fonts/Teko/Teko-Regular.ttf</file>
-        <file>resources/fonts/Teko/Teko-SemiBold.ttf</file>
         <file>qml/AppleCompass.qml</file>
         <file>qml/Level.qml</file>
+        <file>qml/Main.qml</file>
+        <file>resources/Fonts/Teko/Teko-Bold.ttf</file>
+        <file>resources/Fonts/Teko/Teko-Light.ttf</file>
+        <file>resources/Fonts/Teko/Teko-Medium.ttf</file>
+        <file>resources/Fonts/Teko/Teko-Regular.ttf</file>
+        <file>resources/Fonts/Teko/Teko-SemiBold.ttf</file>
     </qresource>
 </RCC>
