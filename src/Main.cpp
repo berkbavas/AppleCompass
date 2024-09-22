@@ -1,6 +1,10 @@
-#include <Oscillator.h>
+#include "Oscillator.h"
+
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
+#include <QQmlContext>
+
+#include "CompassBackend.h"
 
 int main(int argc, char *argv[])
 {
@@ -11,7 +15,7 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
     qmlRegisterType<Oscillator>("com.github.berkbavas.oscillator", 1, 0, "Oscillator");
     QQmlApplicationEngine engine;
-    const QUrl url(QStringLiteral("qrc:/main.qml"));
+    const QUrl url(QStringLiteral("qrc:/qml/Main.qml"));
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreated,
@@ -21,6 +25,9 @@ int main(int argc, char *argv[])
                 QCoreApplication::exit(-1);
         },
         Qt::QueuedConnection);
+
+    CompassBackend *backend = new CompassBackend;
+    engine.rootContext()->setContextProperty("backend", backend);
     engine.load(url);
 
     return app.exec();

@@ -8,7 +8,7 @@ Oscillator::Oscillator(QObject *parent)
     , mPeriod(1)
     , mInitialValue(0)
     , mDelta(0)
-    , mTimeout(20)
+    , mTimeout(5)
 
 {}
 
@@ -25,17 +25,18 @@ void Oscillator::start()
     connect(&mTimer, &QTimer::timeout, this, &Oscillator::tick);
     mTimer.start(mTimeout);
 }
+
 void Oscillator::stop()
 {
     mTimer.stop();
 }
-#include <QDebug>
 
 void Oscillator::tick()
 {
     mValue += mSign * mDelta;
 
-    if (mValue > mMaximum) {
+    if (mValue > mMaximum)
+    {
         mValue -= mMaximum;
     }
 
